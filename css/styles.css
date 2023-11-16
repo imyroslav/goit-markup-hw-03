@@ -173,7 +173,7 @@ a {
     padding: 188px 0;
 }
 
-.section-title {
+.section-first-title {
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
@@ -196,11 +196,22 @@ a {
 }
 
 .card-text {
-   letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .section-second {
     padding: 120px 0;
+}
+
+.section-second-title {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
 }
 
 .section-second-list {
@@ -215,10 +226,62 @@ a {
 
 .section-third {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
-.ourteam-list {
+.section-third-title {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.section-third-list {
+    display: flex;
+    gap: 24px;
+}
+
+.section-third-list-el {
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.staff-card {
+    padding: 32px 0;
+}
+
+.staff-card-title {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.staff-card-text {
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.section-fourth {}
+
+.section-fourth-title {
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
 }
 
 .footer {
@@ -233,3 +296,4 @@ a {
 .logo-span-footer {
     color: #F4F4FD;
 }
+
