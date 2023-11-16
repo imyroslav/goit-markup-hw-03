@@ -6,6 +6,45 @@ body {
     line-height: 1.5;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+}
+
+img { 
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.div-header {
+    display: flex;
+} 
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
 
 .page-title {
     color: #FFFF;
@@ -15,6 +54,7 @@ body {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    width: 495px;
 }
 
 .logo { 
@@ -25,6 +65,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-left: 76px;
 }
 
 .logo-span-header {
