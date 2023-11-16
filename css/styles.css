@@ -17,6 +17,10 @@ ul {
     padding-left: 0;
     list-style-type: none;
 }
+
+.list {
+    display: flex;
+    gap: 40px;
 }
 
 img { 
@@ -65,7 +69,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
-    margin-left: 76px;
+    margin-right: 76px;
 }
 
 .logo-span-header {
@@ -80,6 +84,7 @@ a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
 }
 
 .nav-link:hover {
