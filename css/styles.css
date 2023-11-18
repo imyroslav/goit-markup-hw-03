@@ -59,6 +59,15 @@ a {
     display: flex;
 } 
 
+
+.div-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
 .container {
     width: 1158px;
     margin-left: auto;
@@ -179,14 +188,8 @@ a {
 
 .section-first {
     background-color: #2E2F42;
-    padding:188px 331px;
-}
-
-.div-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .section-first-title {
